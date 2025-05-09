@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dr. Your Name - Academic Website</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f6f8;
+      color: #2d3436;
+    }
+    header {
+      background-color: #2d3436;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid white;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #81ecec;
+      text-decoration: none;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+      background: white;
+      margin-top: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #dfe6e9;
+      margin-top: 2rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background-color: #0984e3;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin: 0.5rem;
+    }
+    details summary {
+      cursor: pointer;
+      color: #0984e3;
+    }
+    details pre {
+      background: #ecf0f1;
+      padding: 1rem;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="profile.jpg" alt="Your Profile Photo" />
+  <h1>Dr. Your Name</h1>
+  <p>Assistant Professor | Department of Electrical & Computer Engineering | NUS</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#publications">Publications</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#contact">Contact</a>
+    <a href="cv.pdf" class="btn" target="_blank">Download CV</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am a researcher in control systems, robotics, and machine learning. I am passionate about designing autonomous systems and teaching the next generation of engineers.</p>
+</section>
+
+<section id="publications">
+  <h2>Selected Publications</h2>
+  <ul>
+    <li>
+      <strong>YOLOMG: Vision-based Drone-to-Drone Detection</strong>, IEEE RA-L, 2024.
+      <a href="yolomg.pdf">[PDF]</a>
+      <details>
+        <summary>BibTeX</summary>
+        <pre>
+@article{lin2024yolomg,
+  title={YOLOMG: Vision-based Drone-to-Drone Detection},
+  author={Lin, Feng and Zhao, Prof. and Others},
+  journal={IEEE Robotics and Automation Letters},
+  year={2024}
+}
+        </pre>
+      </details>
+    </li>
+    <li>
+      <strong>Barrier Functions in Behavior Trees</strong>, ICRA, 2023.
+      <a href="barrier_bt.pdf">[PDF]</a>
+    </li>
+  </ul>
+</section>
+
+<section id="teaching">
+  <h2>Teaching</h2>
+  <ul>
+    <li><strong>EE2211 - Introduction to Machine Learning</strong>: AY2024/2025 Semester 2</li>
+    <li><strong>CG2023 - Signals and Systems</strong>: AY2024/2025 Semester 1</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: your.email@nus.edu.sg</p>
+  <p>
+    <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
+    <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+  </p>
+</section>
+
+<footer>
+  &copy; 2025 Dr. Your Name. All rights reserved.
+</footer>
+
+</body>
+</html>
